@@ -42,6 +42,8 @@ cv:
         end_date: present
         summary: Working on computational biology projects and bioinformatics research.
 
+    Volunteer: []
+
     Projects:
       - name: Antibiotic Early Discontinuation Prediction Model
         summary: Development of a prediction model for early discontinuation of antibiotics based on severity mitigation
