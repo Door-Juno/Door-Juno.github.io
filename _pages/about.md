@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+nav: false
 subtitle: Bioinformatics Lab Intern @ <a href='https://en.knu.ac.kr/'>Kyungpook National University</a>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
