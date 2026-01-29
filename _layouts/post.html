@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <p class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date: "%Y년 %m월 %d일" }}
+    </time>
+  </p>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div class="post-navigation">
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+    {% endif %}
+  </div>
+</article>

@@ -1,3 +1,26 @@
-theme: jekyll-theme-minimal
+# Site settings
 title: Door-Juno's page
 description: Bioinformatist & Data Science
+author: Door-Juno
+email: bublman3375@knu.ac.kr
+
+# Build settings
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# Permalink style
+permalink: /blog/:year/:month/:day/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - .git/
+  - .gitignore
