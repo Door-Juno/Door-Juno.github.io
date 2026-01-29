@@ -25,7 +25,7 @@ toc:
 기존 다른 모델들은 이 Static 데이터들을 제대로 활용하기 힘들었지만, TFT 는 이 데이터를 모델 전체에 Context로 뿌려 활용한다는 특징이 있다 .
 
 # Architecture
-![](https://velog.velcdn.com/images/door_jono/post/457093b1-ca5c-4fe7-bb90-4ce0ab63454c/image.png)
+<img src="https://velog.velcdn.com/images/door_jono/post/457093b1-ca5c-4fe7-bb90-4ce0ab63454c/image.png" width="60%">
 **Gating Mechanism(GLU)**
 데이터의 흐름을 제어하여 현 시점에서 불필요한 정보는 억제한다. 
 
