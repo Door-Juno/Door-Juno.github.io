@@ -1,0 +1,70 @@
+cv:
+  name: Junho Mun
+  label: Bioinformatist & Data Scientist
+  email: bublman3375@knu.ac.kr
+  location: Daegu, South Korea
+  image: ""
+  summary: Bioinformatics and Data Science student passionate about computational biology and machine learning applications in healthcare.
+
+  social_networks:
+    - network: GitHub
+      username: Door-Juno
+
+  sections:
+    Education:
+      - institution: Kyungpook National University
+        location: Daegu, South Korea
+        url: https://en.knu.ac.kr/
+        area: Food Science and Biotechnology (Food Application Engineering)
+        studyType: Bachelor
+        start_date: 2022
+        end_date: present
+        highlights:
+          - Food Science and Biotechnology major
+          - Food Application Engineering specialization
+
+      - institution: Kyungpook National University
+        location: Daegu, South Korea
+        url: https://en.knu.ac.kr/
+        area: Computer Science and Engineering (AI Computing)
+        studyType: Bachelor
+        start_date: 2024
+        end_date: present
+        highlights:
+          - Computer Science and Engineering major
+          - AI Computing specialization
+
+    Experience:
+      - company: Computational Biology & Bioinformatics Lab
+        position: Research Intern
+        location: Kyungpook National University, Daegu, South Korea
+        start_date: 2025-10
+        end_date: present
+        summary: Working on computational biology projects and bioinformatics research.
+
+    Projects:
+      - name: Antibiotic Early Discontinuation Prediction Model
+        summary: Development of a prediction model for early discontinuation of antibiotics based on severity mitigation
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Machine learning for healthcare
+          - Antibiotic stewardship
+
+    Skills:
+      - name: Bioinformatics
+        level: Intermediate
+        icon: fa-solid fa-dna
+        keywords: "Computational Biology, Genomics, Data Analysis"
+
+    Languages:
+      - name: Korean
+
+    Interests:
+      - name: Computational Biology
+        icon: fa-solid fa-microscope
+        keywords: "Bioinformatics, Genomics, Systems Biology"
+
+      - name: Deep Learning
+        icon: fa-solid fa-brain
+        keywords: "Healthcare AI, Predictive Modeling, Deep Learning"
