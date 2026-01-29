@@ -57,14 +57,23 @@ cv:
         icon: fa-solid fa-dna
         keywords: "Computational Biology, Genomics, Data Analysis"
 
+      - name: Data Science
+        level: Intermediate
+        icon: fa-solid fa-chart-line
+        keywords: "Machine Learning, Statistical Analysis, Python"
+
     Languages:
       - name: Korean
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Professional working proficiency"
 
     Interests:
       - name: Computational Biology
         icon: fa-solid fa-microscope
         keywords: "Bioinformatics, Genomics, Systems Biology"
 
-      - name: Deep Learning
+      - name: Machine Learning
         icon: fa-solid fa-brain
         keywords: "Healthcare AI, Predictive Modeling, Deep Learning"
