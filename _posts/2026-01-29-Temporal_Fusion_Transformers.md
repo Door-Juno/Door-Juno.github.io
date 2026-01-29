@@ -5,6 +5,8 @@ date: 2026-01-29
 description: 시계열의 SOTA인 TFT 모델에 대해 알아보자.
 tags: Deeplearning
 categories: blog
+toc:
+  sidebar: right
 ---
 # Intro 
 시계열 예측에서 기존의 LSTM, GRU 기반 모델들은 단일 시점 예측에는 강한 성능을 가지지만, **미래의 여러 시점 (Multi-Horizon)**을 동시에 예측하는데에는 한계가 있다. 
