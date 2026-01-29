@@ -18,6 +18,23 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-문준호 ( Junho Mun )
+**문준호 ( Junho Mun )**
 - Bioinformatics
 - DataScience
+
+---
+
+## Development Status
+
+<div class="container mt-4 mb-4">
+  <div class="row justify-content-center align-items-center g-4">
+    <div class="col-lg-6 col-12 text-center">
+      <img src="https://github-readme-stats.vercel.app/api?username=Door-Juno&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" class="img-fluid" />
+    </div>
+    <div class="col-lg-6 col-12 text-center">
+      <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=mjh3375" alt="Solved.ac Profile" class="img-fluid" />
+    </div>
+  </div>
+</div>
+
+---
