@@ -1,10 +1,13 @@
-let searchTheme = determineComputedTheme();
 const ninjaKeys = document.querySelector("ninja-keys");
 
-if (searchTheme === "dark") {
-  ninjaKeys.classList.add("dark");
-} else {
-  ninjaKeys.classList.remove("dark");
+// determineComputedTheme is only available when darkmode is enabled
+if (typeof determineComputedTheme === "function") {
+  let searchTheme = determineComputedTheme();
+  if (searchTheme === "dark") {
+    ninjaKeys.classList.add("dark");
+  } else {
+    ninjaKeys.classList.remove("dark");
+  }
 }
 
 function openSearchModal() {
