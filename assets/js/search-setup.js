@@ -7,11 +7,12 @@ if (searchTheme === "dark") {
   ninjaKeys.classList.remove("dark");
 }
 
-const openSearchModal = () => {
+function openSearchModal() {
   // collapse navbarNav if expanded on mobile
   const $navbarNav = $("#navbarNav");
   if ($navbarNav.hasClass("show")) {
     $navbarNav.collapse("hide");
   }
   ninjaKeys.open();
-};
+}
+window.openSearchModal = openSearchModal;
