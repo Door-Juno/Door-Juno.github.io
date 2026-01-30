@@ -122,6 +122,13 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
+// TOC transition 제외 (떨림 방지)
+html.transition nav[data-toggle="toc"] *,
+html.transition nav[data-toggle="toc"] *:before,
+html.transition nav[data-toggle="toc"] *:after {
+  transition: none !important;
+}
+
 // Copy button
 
 .code-display-wrapper {

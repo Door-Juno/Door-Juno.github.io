@@ -42,8 +42,8 @@ LSTM의 지역적인 패턴과 Multi-Head Attention을 결합하여 최종적인
 TFT의 장점은 예측의 이유를 시각화 할 수 있다는 것이다. 
 주로 사용하는 차트는 **Variable Importance(변수 중요도)**와 **Attention Weights**이다. 
 
-|![이미지 1](https://velog.velcdn.com/images/door_jono/post/aae60bce-10c2-458e-b337-cbe6f75e657f/image.png)|![이미지 2](https://velog.velcdn.com/images/door_jono/post/4723a14c-0c8f-4c69-9d4f-12e0509e44fa/image.png)| 
-| ------ | ------ |
+![이미지 1](https://velog.velcdn.com/images/door_jono/post/aae60bce-10c2-458e-b337-cbe6f75e657f/image.png)
+![이미지 2](https://velog.velcdn.com/images/door_jono/post/4723a14c-0c8f-4c69-9d4f-12e0509e44fa/image.png)
 Attention Weights 에서, 모델은 예측을 위해 어느 시점의 Attention에 가중치를 두엇는지 측정할 수 있으며, 여러 Variables 중 어느 변수에 더 가중치를 두엇는지 확인할 수 있다. 
 
 또, TFT는 단순히 하나의 값을 예측하는 것이 아니라, **Quantile Loss**를 사용하여 예측의 범위(신뢰구간)을 제공한다. 이를 통해 예측의 **불확실성** 까지 파악할 수 있어 리스크 관리에 용이하다.
